@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body{
+    background-color: black;
+}
+
+.heading{
+    padding: 42px;
+    font-size: 50px;
+    color: white;
+}
+.conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 55vh;    */
+}
+
+.input{
+    width: 270px;
+    padding: 12px 10px;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px;
+    /* border: 1px solid white; */
+    background-color: black;
+    color: white;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 22px;
+}
+.row{
+    margin: 5px 0px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px;
+    margin: 0px 2px;
+    /* box-shadow: 2px 2px white; */
+}
+
+.sp-btn{
+    width: 143px;
+    padding-left: 22px;
+    text-align: left;
+}
+
+.orange{
+    background-color: rgb(255,159,10);
+    color: white;
+    border-color: rgb(255,159,10);
+}
+
+.m-grey{
+    background-color: rgb(51,51,51);
+    color: white;
+    border-color: rgb(51,51,51);
+}
+.light-grey{
+    background-color: rgb(165,165,165);
+    color: black;
+    border-color: rgb(165,165,165); 
+}
+
+.btn:hover{
+  filter: contrast(1.3);
+}
